@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.expense-form {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.expense-form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.expense-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expense-list th,
+.expense-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.total-amount {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+}
